@@ -1,0 +1,24 @@
+#######################################
+# Environment Configuration
+#  - feel free to edit -
+# -> for most changes you only have to
+#         docker-compose up -d
+#    to apply them
+#######################################
+
+
+#######################################
+# PostgreSQL settings
+POSTGRES_USER=dev
+POSTGRES_PASSWORD=dev
+POSTGRES_DATABASE=dev
+
+POSTGRESQL_HOST=postgres
+POSTGRESQL_PORT=5432
+POSTGRESQL_DEFAULT_DB=postgres
+
+#######################################
+# elasticsearch
+ELASTIC_USER=elastic
+ELASTIC_PASSWORD=dev
+discovery.type=single-node
